@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app my app';
+
+  openDialog() {
+    console.log("Dandon click");
+  }
+
+  tryPrintScaleValue() {
+    console.log("Cambiando....")
+  } 
 }
